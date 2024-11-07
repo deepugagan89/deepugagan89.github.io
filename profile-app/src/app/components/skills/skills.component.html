@@ -1,0 +1,21 @@
+<section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+    <h1 class="title pb-3 mb-5">Skills</h1>
+    <div class="row">
+        @for(sks of skills; track sks) {
+        <div class="col-sm-6">
+            @for(s of sks; track s) {
+            <div class="skill mb-4">
+                <div class="d-flex justify-content-between">
+                    <p class="mb-2">{{s.name}}</p>
+                    <p class="mb-2">{{s.knowledge}}%</p>
+                </div>
+                <div class="progress">
+                    <div [class]="'progress-bar bg-' + s.color" role="progressbar" [attr.aria-valuenow]="s.knowledge"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            }
+        </div>
+        }
+    </div>
+</section>
