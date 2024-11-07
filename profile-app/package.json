@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build & publish.bat",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:profile-app": "node dist/profile-app/server/server.mjs"
