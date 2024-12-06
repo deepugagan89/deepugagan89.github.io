@@ -25,13 +25,13 @@ const config = {
         ]
     ],
     experience: [
-        {
-            company:"Navmukh Enterprises",
-            designation:"Website Developer",
-            description: "",
-            start:"Oct 2024",
-            end: "Till Date"
-        },
+        // {
+        //     company:"Navmukh Enterprises",
+        //     designation:"Website Developer",
+        //     description: "",
+        //     start:"Oct 2024",
+        //     end: "Till Date"
+        // },
         {
             company:"Tata Consultancy Services",
             designation:"Assistant Consultant",
