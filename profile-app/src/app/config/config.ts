@@ -2,8 +2,10 @@ const config = {
     freelanceAvailanle: "Available",
     name: "Gagandeep Singh",
     degree: "Bachelor's in IT",
-    phone: "+1-236-818-8927",
-    address: "88 Avenue, Surrey, BC, Canada",
+    // phone: "+1-236-818-8927",
+    // address: "88 Avenue, Surrey, BC, Canada",
+    phone: "+91-9911899738",
+    address: "S-3/69, Street No - 4, Old Mahavir Nagar, New Delhi - 110018, India",
     birthday: "9 July 1989",
     email: "deepugagan89@gmail.com",
     jobStarted: {
@@ -15,7 +17,7 @@ const config = {
             {name: "Angular", knowledge: "90", color: 'primary'},
             {name: "React JS", knowledge: "90", color: 'info'},
             {name: "Node JS", knowledge: "70", color: 'warning'},
-            {name: "Electron", knowledge: "70", color: 'danger'}
+            {name: "Electron JS", knowledge: "70", color: 'danger'}
         ],
         [
             {name: "ASP.Net", knowledge: "80", color: 'danger'},
